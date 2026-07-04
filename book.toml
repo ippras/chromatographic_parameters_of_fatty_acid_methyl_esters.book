@@ -1,0 +1,13 @@
+[book]
+title = "Chromatographic parameters of fatty acid methyl esters"
+authors = ["Giorgi Vladimirovich Kazakov", "Roman Alexandrovich Sidorov"]
+description = "Chromatographic parameters of fatty acid methyl esters"
+
+[preprocessor.katex]
+after = ["links"]
+renderers = ["epub", "html", "pdf"]
+
+[output.html]
+additional-css = ["theme/css/custom.css"]
+additional-js = ["theme/js/custom.js"]
+git-repository-url = "https://github.com/ippras/chromatographic_parameters_of_fatty_acid_methyl_esters.book"
